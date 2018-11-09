@@ -12,7 +12,7 @@ To install Namecheap, use the following composer require statement:
 
 ```
     "require": {
-        "namecheap/namecheap": "dev-master"
+        "mattwohler/namecheap": "dev-master"
     }
 ```
 

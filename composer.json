@@ -1,14 +1,13 @@
 {
-    "name": "namecheap/namecheap",
+    "name": "mattwohler/namecheap",
     "type": "library",
     "description": "A PHP wrapper for the Namecheap API",
     "keywords": ["namecheap", "api"],
-    "homepage": "http://www.vougalabs.com/opensource",
     "license": "MIT",
     "authors": [
         {
-            "name": "Steve Oliveira",
-            "email": "steve@vougalabs.com"
+            "name": "Matt Wohler",
+            "email": "mwohler@ventrylabs.com"
         }
     ],
     "require": {
@@ -18,8 +17,8 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { 
-        	"Namecheap": "lib/" 
+        "psr-0": {
+            "Namecheap": "lib/"
         }
     }
 }
