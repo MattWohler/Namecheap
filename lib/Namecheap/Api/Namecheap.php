@@ -10,15 +10,25 @@ namespace Namecheap\Api;
 */
 abstract class Namecheap
 {
-	protected $client;
-	
-	/**
-	 * Sets the Namecheap client
-	 * 
-	 * @param Namecheap\Client $client
-	 */
-	public function __construct(Client $client)
-	{
-		$this->client = $client;
-	}
+    protected $client;
+
+    /**
+     * Sets the Namecheap client
+     *
+     * @param Namecheap\Client $client
+     */
+    public function __construct(Client $client)
+    {
+        $this->client = $client;
+    }
+
+    /**
+     * Gets the Namecheap client
+     *
+     * @return \Namechea\Api\Client
+     */
+    public function getClient()
+    {
+        return $this->client;
+    }
 }
